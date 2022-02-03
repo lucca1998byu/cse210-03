@@ -1,8 +1,5 @@
 #Lucca
 
-from tabnanny import check
-
-
 class Parachute():
     def parachute(self, check):
         parachute1 = """
