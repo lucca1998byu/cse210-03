@@ -15,7 +15,7 @@ class Parachute():
     /_____\\
     \     /
      \   /
-      😨     
+      😥    
         
         """
 
@@ -24,12 +24,20 @@ class Parachute():
      _____
     \     /
      \   /
+      😨        
+        
+
+        """
+        parachute4 = """
+        
+     _____
+    \     /
+     \   /
       😖        
         
 
         """
-
-        parachute4 = """
+        parachute5 = """
         
     
 
@@ -39,7 +47,7 @@ class Parachute():
         
         """
 
-        parachute5 = """
+        parachute6 = """
         
     
 
@@ -58,3 +66,5 @@ class Parachute():
             return parachute4
         elif check == 5:
             return parachute5
+        else:
+            return parachute6
