@@ -32,6 +32,7 @@ class Parachute():
         parachute4 = """
         
     
+
      \   /
       😵   
 
@@ -41,6 +42,8 @@ class Parachute():
         parachute5 = """
         
     
+
+     
       👻   
         
         
