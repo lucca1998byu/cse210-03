@@ -1,10 +1,13 @@
 #Lucca
 
+from tabnanny import check
+
+
 class Parachute():
     def parachute(self, check):
         parachute1 = """
      _____    
-    /_____\
+    /_____\\
     \     /
      \   /
       😅 
@@ -12,7 +15,7 @@ class Parachute():
         """
         parachute2 = """
       
-    /_____\
+    /_____\\
     \     /
      \   /
       😨     
@@ -45,5 +48,3 @@ class Parachute():
         
         
         """
-
-        if 
