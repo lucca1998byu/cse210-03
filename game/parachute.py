@@ -5,7 +5,7 @@ class Parachute():
 
     # the method returns a variable, depending of the argument given when its called in Director
 
-    def parachute(check):
+    def parachute(self, check):
         parachute1 = """
      _____    
     /_____\\
