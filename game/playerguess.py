@@ -3,6 +3,6 @@ class playerguessw():
         pass
 
     def get_input(self):
-        guessword = input("Please type your guess letter: ")
+        guessword = input("ʕ•́ᴥ•̀ʔっ Please type your guess letter: ")
 
         return guessword
