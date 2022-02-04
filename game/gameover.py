@@ -13,9 +13,5 @@ class Gameover():
             print("Congratulations, you solved the secret word")
             return True
         elif turn == 6:
-<<<<<<< HEAD
-            print("Thanks for playeing, try again")
-            return False    
-=======
+
             print("Thanks for playing, try again")
->>>>>>> 0f1d825a98fa1eebf05f744e3697c831cf49e1e2
