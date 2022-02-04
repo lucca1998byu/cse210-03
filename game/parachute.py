@@ -1,11 +1,15 @@
 #Lucca
-
+# The parachute class keeps the lives of the user
+#every time the user guess wrong, he misses a live
 class Parachute():
-    def parachute(self, check):
+
+    # the method returns a variable, depending of the argument given when its called in Director
+
+    def parachute(check):
         parachute1 = """
      _____    
     /_____\\
-    \     /
+    \     /   Lifes: 5
      \   /
       😅 
 
@@ -13,7 +17,7 @@ class Parachute():
         parachute2 = """
       
     /_____\\
-    \     /
+    \     /   Lifes: 4
      \   /
       😥    
         
@@ -22,7 +26,7 @@ class Parachute():
         parachute3 = """
         
      _____
-    \     /
+    \     /   Lifes: 3
      \   /
       😨        
         
@@ -31,7 +35,7 @@ class Parachute():
         parachute4 = """
         
      _____
-    \     /
+    \     /   Lifes: 2
      \   /
       😖        
         
@@ -41,7 +45,7 @@ class Parachute():
         
     
 
-     \   /
+     \   /    Lifes: 1
       😵   
 
         
