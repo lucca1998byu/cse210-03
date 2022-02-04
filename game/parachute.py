@@ -6,6 +6,21 @@ class Parachute():
     # the method returns a variable, depending of the argument given when its called in Director
 
     def parachute(check):
+        print("""
+        
+     ____.                                    ________                       
+    |    |__ __  _____ ______   ___________  /  _____/_____    _____   ____  
+    |    |  |  \/     \\____ \_/ __ \_  __ \/   \  ___\__  \  /     \_/ __ \ 
+/\__|    |  |  /  Y Y  \  |_> >  ___/|  | \/\    \_\  \/ __ \|  Y Y  \  ___/ 
+\________|____/|__|_|  /   __/ \___  >__|    \______  (____  /__|_|  /\___  >
+                     \/|__|        \/               \/     \/      \/     \/ 
+                              
+
+""") 
+        
+        
+        
+        
         parachute1 = """
      _____    
     /_____\\
