@@ -4,14 +4,28 @@
 #the world is done, or the lives are over
 
 class Gameover():
-
-    #If the puzzle is solved the game is over.
-    #If the player has no more parachute the game is over.
-   
     def gameover(self, playerguess, turn):
         if '_' not in playerguess:
-            print("Congratulations, you solved the secret word")
+            print("""
+            
+Yb  dP  dP"Yb  88   88     Yb        dP 88 88b 88 
+ YbdP  dP   Yb 88   88      Yb  db  dP  88 88Yb88 
+  8P   Yb   dP Y8   8P       YbdPYbdP   88 88 Y88 
+ dP     YbodP  `YbodP'        YP  YP    88 88  Y8 
+
+            
+            
+            """)
             return True
         elif turn == 6:
-
-            print("Thanks for playing, try again")
+            print("""
+            
+█▀▀ ▄▀█ █▀▄▀█ █▀▀   █▀█ █░█ █▀▀ █▀█
+█▄█ █▀█ █░▀░█ ██▄   █▄█ ▀▄▀ ██▄ █▀▄
+            
+            """)
+            print("***********************")
+            print("--------You Die-------")
+            print("************************")
+            return False
+    
